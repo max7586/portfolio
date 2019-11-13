@@ -480,12 +480,6 @@ h2.title::before {
   background-color: #292929;
 }
 
-/* .middle{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-  } */
 .project {
   cursor: pointer;
   width: 100%;
