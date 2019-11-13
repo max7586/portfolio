@@ -286,7 +286,7 @@ h2.title::before {
   background-color: var(--p-color);
 }
 
-/*Service Section*/
+/*My Service Section*/
 
 .services {
   float: left;
@@ -471,7 +471,7 @@ h2.title::before {
   display: block;
 }
 
-/*My-Projects news section*/
+/*My-Projects  section*/
 
 .myProjects {
   float: left;
@@ -700,16 +700,7 @@ footer .footer__p {
   padding-top: 15px;
   color: white;
 }
-@media screen and (max-width: 800px) {
-  footer .footer-content .contact-info {
-    flex-direction: column;
-  }
-  footer .footer-content .card {
-    width: 100%;
-    max-width: 300px;
-    margin: 10px 0;
-  }
-}
+
 
 .trigger-main {
   position: absolute;
@@ -810,11 +801,20 @@ footer .footer__p {
   .portfolio .portfolio-content .card {
     width: 50%;
   }
-  .team .team-content .card {
-    width: 100%;
-  }
+
   .myProjects .myProjects-content .card {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  footer .footer-content .contact-info {
+    flex-direction: column;
+  }
+  footer .footer-content .card {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
   }
 }
 
