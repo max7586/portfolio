@@ -701,7 +701,6 @@ footer .footer__p {
   color: white;
 }
 
-
 .trigger-main {
   position: absolute;
   top: 15px;
@@ -807,18 +806,10 @@ footer .footer__p {
   }
 }
 
-@media screen and (max-width: 800px) {
-  footer .footer-content .contact-info {
-    flex-direction: column;
-  }
-  footer .footer-content .card {
-    width: 100%;
-    max-width: 300px;
-    margin: 10px 0;
-  }
-}
-
 @media (max-width: 767px) {
+  .about .about-content .img {
+    width: 75%;
+  }
   .services .services-content .card {
     width: 100%;
   }
@@ -831,7 +822,13 @@ footer .footer__p {
   footer .footer-content .box {
     width: 100%;
   }
-  .about .about-content .img {
-    width: 75%;
+
+  footer .footer-content .contact-info {
+    flex-direction: column;
+  }
+  footer .footer-content .card {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
   }
 }
