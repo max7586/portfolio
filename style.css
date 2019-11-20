@@ -265,14 +265,14 @@ header::before {
   color: #ffffff;
   margin: 10px 0px;
   font-weight: 400;
-  animation: slideLeft 1.5s ease;
+  animation: slideLeft 2s ease;
 }
 .home-text h3 {
   font-size: 60px;
   color: var(--p-color);
   margin: 15px 0px 0px;
   font-weight: 700;
-  animation: slideRight 1.5s ease;
+  animation: slideRight 2.5s ease;
 }
 
 @keyframes slideLeft {
@@ -373,8 +373,12 @@ h2.title::before {
   margin-right: 10px;
   margin-top: 20px;
 }
+
+.aboutMe-btn {
+  margin: 5px;
+}
 .btn-bg {
-  padding: 12px 40px;
+  padding: 11px 33px;
   border-radius: 0;
   font-size: 16px;
   color: #ffffff;
@@ -385,6 +389,7 @@ h2.title::before {
   cursor: pointer;
   transition: all 0.5s ease;
   border-radius: 7px;
+  margin: 4px auto;
 }
 .btn-bg:hover {
   border: 1px solid var(--p-color);
@@ -392,7 +397,7 @@ h2.title::before {
   background-color: transparent;
 }
 .btn-light {
-  padding: 12px 40px;
+  padding: 11px 33px;
   border-radius: 0;
   font-size: 16px;
   color: var(--p-color);
@@ -407,6 +412,13 @@ h2.title::before {
 .btn-light:hover {
   color: #ffffff;
   background-color: var(--p-color);
+}
+
+.myProjects-btn {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
 }
 
 /*My Service Section*/
@@ -673,6 +685,12 @@ h2.title::before {
   width: 100%;
 }
 .myProjects .myProjects-content .card .box img {
+  width: 100%;
+}
+.myProjects .myProjects-content .card .box p .btn-bg {
+  width: 100%;
+}
+.myProjects .myProjects-content .card .box p .btn-light {
   width: 100%;
 }
 .myProjects .myProjects-content .card .box h4 {
